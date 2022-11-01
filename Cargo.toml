@@ -1,0 +1,13 @@
+[package]
+name = "syllabs-rs"
+version = "0.1.0"
+authors = [ "Florent Veilly <florent.veilly@gmail.com>" ]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "0.8.1", features = [ "serialize", "wav" ] }
+toml = { version = "0.5.9" }
+serde = { version = "1.0" }
+indextree = { version = "4.5.0" }
